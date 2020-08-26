@@ -176,6 +176,11 @@ h6 {
   margin-top: -300px;
 }
 
+.page-top .level-item.cityscape {
+  max-width: 100vw;
+  min-height: 380px;
+}
+
 .no-bullet {
   list-style: none;
 }
@@ -217,4 +222,8 @@ a.navbar-item.is-active,
 
 .event figure.image {
   max-width: 256px;
+}
+
+.navbar-burger {
+  margin-left: unset;
 }
