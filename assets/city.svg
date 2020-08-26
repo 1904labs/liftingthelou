@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1929.001" height="555.037" viewBox="0 0 1929.001 555.037">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.214" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#333e48"/>
+      <stop offset="1" stop-color="#1b2026"/>
+    </linearGradient>
+    <filter id="Path_1548" x="-566.603" y="0" width="3239.974" height="305.85" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_3" x="0" y="0" width="1929.001" height="555.037" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Union_3)">
+    <path id="Union_3-2" data-name="Union 3" d="M0-1065.458v-389.151H21.579v-99.633h98v8.87h24.5v5.12h13.4v22.86H170.3v-24.645h6.709v-9.474h22.587v-13.99h98.387v-33.1h80.011v41.969h26.031v10.234H434.27v53.912h35.987v-52.208h62.4v59.712h38.667V-1526.6h31.393v62.1h32.539v-9.213H683.11v-8.529h30.244v-12.286h42.491v-25.933h21.439v-18.423h26.8v18.423h21.055v36.169h20.674v-14.672h48.619v12.4H931.82v-15.468h29.608v17.743h22.456v-17.743h56.66v7.506h34.708v-22.18H1131.4v-61.756h45.43v22.748h34.709v39.009H1272.5v16.578h29.039v9.969H1317.8v-54.022h25.755v4.489h37.567v-13.117h32.146v13.117h16.652v61.786h13.167v11.392h13.17v7.937h6.193V-1471.7h15.881v13.113h4.646V-1471.7h8.135v-36.247h32.146v10.354h6.235v-7.079h11.834V-1531.8h6.505v-6.8h16.088v-11.457h14.328v11.457h8.521v-14.218h10.458v21.019h5.42v92.371h8.521v-106.659h29.046v37.28h8.72v-26.408h15.1v-14.841h41.829v14.841h4.648v5.7h8.714v13.323h10.457v11.524h13.942v-19.671h9.3V-1539.7h19.168v68.767h9.3v-120.843h13.64v-19.72h26.442v140.563h9.293v20.288H1841.6v-20.288h10.745v-95.852h8.125v-25.455h10.565v-19.256h17.039v19.256h7.745v25.455h4.648v81.018h5.421v-14.583H1920v185.391h0v249.5Z" transform="translate(8.5 1618.99)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
