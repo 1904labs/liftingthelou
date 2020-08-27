@@ -233,3 +233,14 @@ a.navbar-item.is-active,
   margin-left: auto;
   margin-right: auto;
 }
+
+.column.focus-icon figure img {
+  height: 128px;
+}
+
+.jumptarget::before {
+  content: "";
+  display: block;
+  height: 54px;
+  margin: -54px 0 0;
+}
