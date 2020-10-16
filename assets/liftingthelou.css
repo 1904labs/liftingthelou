@@ -208,11 +208,51 @@ a.navbar-item.is-active {
   height: 54px;
   margin: -54px 0 0;
 }
-.navbar-burger span {
-  height: 3px;
-  width: 20px;
-}
+
 .c-column {
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar {
+    min-height: 4rem;
+  }
+  .navbar-burger {
+    height: 4rem;
+    width: 4rem;
+  }
+  .navbar-burger span {
+    height: 4px;
+    left: calc(50% - 12px);
+    width: 40px;
+  }
+  .navbar-burger span:nth-child(1) {
+    top: calc(50% - 12px);
+  }
+  .navbar-burger span:nth-child(2) {
+    top: calc(50% - 2px);
+  }
+  .navbar-burger span:nth-child(3) {
+    top: calc(50% + 8px);
+  }
+  .navbar-burger.is-active span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  .navbar-burger.is-active span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+  .navbar-item.is-tab {
+    min-height: 4rem;
+  }
+  .navbar-dropdown {
+    font-size: 1.25rem;
+  }
+  .hero.is-fullheight-with-navbar {
+    min-height: calc(100vh - 4rem);
+  }
+  html.has-navbar-fixed-top,
+  body.has-navbar-fixed-top {
+    padding-top: 4rem;
+  }
 }
