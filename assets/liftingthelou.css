@@ -214,6 +214,16 @@ a.navbar-item.is-active {
   margin-right: auto;
 }
 
+.level-item,
+.level-left,
+.level-right {
+  max-width: 100%;
+}
+
+.page-top .level .level-item img#page-title {
+  max-width: 80%;
+}
+
 @media screen and (max-width: 1023px) {
   .navbar {
     min-height: 4rem;
