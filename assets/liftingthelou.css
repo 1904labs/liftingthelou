@@ -224,6 +224,13 @@ a.navbar-item.is-active {
   max-width: 80%;
 }
 
+.ali-academy {
+  position: absolute;
+  width: 50% !important;
+  left: 25% !important;
+  top: 25% !important;
+}
+
 @media screen and (max-width: 1023px) {
   .navbar {
     min-height: 4rem;
